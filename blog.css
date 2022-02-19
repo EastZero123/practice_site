@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    justify-content: center;
+    border: blue dashed;
+}
+
+category{
+    width: 20vw;
+    border: red dashed;
+    float: left;
+}
+
+.write{
+    width: 65vw;
+    border: pink dashed;
+    float: left;
+}
+
+
+.right_sidebar {
+    width: 10vw;
+    border: black dashed;
+    position: sticky;
+    right: 0;
+    top : 20vh;
+}
+
+.under{
+    float: right;
+    width: 5px;
+}
