@@ -1,4 +1,11 @@
+body {
+    height: 100vh;
+}
+
 .main {
+    background-image: url(billboard.png);
+    background-size: 100vw 10vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     border: blue dashed;
@@ -20,9 +27,10 @@ category{
 .right_sidebar {
     width: 10vw;
     border: black dashed;
+    float: right;
     position: sticky;
     right: 0;
-    top : 20vh;
+    top: 15vh;
 }
 
 .under{
