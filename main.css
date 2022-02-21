@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 9fr;
+    grid-gap: 0.5rem;
+}
+
+header {
+    border: blue dashed;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/4;
+}
+
+subhead {
+    border: yellow dashed;
+    display: grid;
+}
+
+sub:nth-child(1) {
+    display: grid;
+    grid-column: 1/2;
+    align-items: center;
+}
+
+.sub2 {
+    display: grid;
+    grid-column: 2/3;
+    justify-content: center;
+}
+
+.sub3 {
+    display: grid;
+    grid-column: 3/4;
+    justify-content:space-around;
+    align-items:center;
+    word-break: keep-all;
+}
