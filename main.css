@@ -6,7 +6,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 1fr 9fr;
+    grid-template-rows: 1fr 4fr 4fr;
     grid-gap: 0.5rem;
 }
 
@@ -23,22 +23,34 @@ subhead {
     display: grid;
 }
 
-sub:nth-child(1) {
-    display: grid;
-    grid-column: 1/2;
+.sub1 {
+    display: grid;    
     align-items: center;
+    grid-column: 1/2;
+    grid-row: 2/4;
+
 }
 
 .sub2 {
     display: grid;
+    justify-content: center;   
     grid-column: 2/3;
-    justify-content: center;
+    grid-row: 2/3;
 }
 
 .sub3 {
-    display: grid;
-    grid-column: 3/4;
+    display: grid;    
     justify-content:space-around;
     align-items:center;
     word-break: keep-all;
+    grid-column: 3/4;
+    grid-row: 2/4;
+
+}
+
+.sub4 {
+    display: grid;
+    justify-content: center;
+    grid-column: 2/3;
+    grid-row: 3/4;
 }
